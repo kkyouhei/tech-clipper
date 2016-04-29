@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "techclips",
+  "name": "tech-clipper",
   "description": "tech-clipsへクリップリクエストの送信を行う",
   "version": "1.0",
   "icons": { "16": "icons/icon16.png",
