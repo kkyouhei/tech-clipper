@@ -13,11 +13,13 @@ $(function() {
       url: $form.attr('action'),
       type: $form.attr('method'),
       data: $form.serialize(),
-      timeout: 10000,
+      timeout: 3000,
       success: function(result, textStatus, xhr) {
         window.close();
       },
-      error: function(xhr, textStatus, error) {}
+      error: function(xhr, textStatus, error) {
+        window.close();
+      }
     });
   });
 });
