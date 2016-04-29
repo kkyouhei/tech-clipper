@@ -16,7 +16,7 @@
     <h1>TechClips</h1>
   </header>
   <section>
-    <form method="post" action="https://tech-clips.com/clip/callback">
+    <form id="form" method="post" action="https://tech-clips.com/clip/callback">
       <input id="title" type="hidden" value="" name="title">
       <input id="url" type="text" placeholder="http://◯◯◯.com" value="" name="url">
       <textarea placeholder="あなたのコメントを書いてCLIPしましょう（任意）" name="comment"></textarea>
@@ -26,7 +26,12 @@
         <label for="facebook">
           <input id="facebook" type="checkbox" name="share_facebook" checked="checked">facebook</label>
         <button type="submit">
-          +CLIP
+          <div class="text">+CLIP</div>
+          <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+          </div>
         </button>
       </div>
     </form>
