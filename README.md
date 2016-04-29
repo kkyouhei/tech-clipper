@@ -11,3 +11,6 @@ http://qiita.com/suin/items/2b31079056f1356257cb
 - [x] コメントを付けてpost
 - [x]  SNS連動オプション
 - [ ]  coffee scriptで作成
+
+## License
+MIT
