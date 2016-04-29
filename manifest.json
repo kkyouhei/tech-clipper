@@ -15,9 +15,5 @@
     "tabs",
     "https://*/*",
     "http://*/*"
-  ],
-  "background": {
-    "scripts": ["js/jquery-2.2.3.min.js", "js/techclips.js"],
-    "persistent": false
-  }
+  ]
 }

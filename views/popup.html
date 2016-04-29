@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="../css/normalize.css" media="all">
   <link rel="stylesheet" type="text/css" href="../css/style.css" media="all">
+  <script src="../js/jquery-2.2.3.min.js"></script>
+  <script src="../js/techclips.js"></script>
 </head>
 
 <body>
@@ -14,7 +16,8 @@
     <h1>TechClips</h1>
   </header>
   <section>
-    <form name="clipForm" method="post" action="/clip/callback">
+    <form method="post" action="https://tech-clips.com/clip/callback">
+      <input id="title" type="hidden" value="" name="title">
       <input id="url" type="text" placeholder="http://◯◯◯.com" value="" name="url">
       <textarea placeholder="あなたのコメントを書いてCLIPしましょう（任意）" name="comment"></textarea>
       <div class="action">
