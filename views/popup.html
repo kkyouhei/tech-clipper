@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../css/normalize.css" media="all">
+  <link rel="stylesheet" type="text/css" href="../css/style.css" media="all">
+</head>
+
+<body>
+  <header>
+    <h1>TechClips</h1>
+  </header>
+  <section>
+    <form name="clipForm" method="post" action="/clip/callback">
+      <input id="url" type="text" placeholder="http://◯◯◯.com" value="" name="url">
+      <textarea placeholder="あなたのコメントを書いてCLIPしましょう（任意）" name="comment"></textarea>
+      <div class="action">
+        <label for="twitter">
+          <input id="twitter" type="checkbox" name="share_twitter" checked="checked">twitter</label>
+        <label for="facebook">
+          <input id="facebook" type="checkbox" name="share_facebook" checked="checked">facebook</label>
+        <button type="submit">
+          +CLIP
+        </button>
+      </div>
+    </form>
+  </section>
+</body>
+
+</html>
