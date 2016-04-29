@@ -8,6 +8,6 @@ https://tech-clips.com へクリップリクエストを送信するための非
 http://qiita.com/suin/items/2b31079056f1356257cb
 
 ## 帰ったらやる
-- [ ] コメントを付けてpost
-- [ ]  SNS連動オプション
+- [x] コメントを付けてpost
+- [x]  SNS連動オプション
 - [ ]  coffee scriptで作成
