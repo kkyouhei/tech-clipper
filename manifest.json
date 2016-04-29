@@ -8,15 +8,12 @@
             "128": "icons/icon128.png" },
   "browser_action": {
     "name": "send to clip",
-    "default_icon": "icons/icon19.png"
+    "default_icon": "icons/icon19.png",
+    "default_popup": "views/popup.html"
   },
   "permissions": [
     "tabs",
     "https://*/*",
     "http://*/*"
-  ],
-  "background": {
-    "scripts": ["js/jquery-2.2.3.min.js", "js/techclips.js"],
-    "persistent": false
-  }
+  ]
 }
